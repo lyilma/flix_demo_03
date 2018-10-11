@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		FD31628D2159CB1300DB0480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31628C2159CB1300DB0480 /* AppDelegate.swift */; };
-		FD31628F2159CB1300DB0480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31628E2159CB1300DB0480 /* ViewController.swift */; };
 		FD3162922159CB1300DB0480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD3162902159CB1300DB0480 /* Main.storyboard */; };
 		FD3162942159CB1400DB0480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD3162932159CB1400DB0480 /* Assets.xcassets */; };
 		FD3162972159CB1400DB0480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD3162952159CB1400DB0480 /* LaunchScreen.storyboard */; };
 		FD3162A22159CB1400DB0480 /* flix_demo_03Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3162A12159CB1400DB0480 /* flix_demo_03Tests.swift */; };
 		FD3162AD2159CB1400DB0480 /* flix_demo_03UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3162AC2159CB1400DB0480 /* flix_demo_03UITests.swift */; };
+		FD87020621659B2A00758B27 /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD87020521659B2A00758B27 /* NowPlayingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		FD3162892159CB1200DB0480 /* flix_demo_03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flix_demo_03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD31628C2159CB1300DB0480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD31628E2159CB1300DB0480 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD3162912159CB1300DB0480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD3162932159CB1400DB0480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD3162962159CB1400DB0480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		FD3162A82159CB1400DB0480 /* flix_demo_03UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flix_demo_03UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD3162AC2159CB1400DB0480 /* flix_demo_03UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flix_demo_03UITests.swift; sourceTree = "<group>"; };
 		FD3162AE2159CB1400DB0480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD87020521659B2A00758B27 /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +97,10 @@
 		FD31628B2159CB1200DB0480 /* flix_demo_03 */ = {
 			isa = PBXGroup;
 			children = (
+				FD87020521659B2A00758B27 /* NowPlayingViewController.swift */,
 				FD31628C2159CB1300DB0480 /* AppDelegate.swift */,
-				FD31628E2159CB1300DB0480 /* ViewController.swift */,
-				FD3162902159CB1300DB0480 /* Main.storyboard */,
 				FD3162932159CB1400DB0480 /* Assets.xcassets */,
+				FD3162902159CB1300DB0480 /* Main.storyboard */,
 				FD3162952159CB1400DB0480 /* LaunchScreen.storyboard */,
 				FD3162982159CB1400DB0480 /* Info.plist */,
 			);
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD31628F2159CB1300DB0480 /* ViewController.swift in Sources */,
+				FD87020621659B2A00758B27 /* NowPlayingViewController.swift in Sources */,
 				FD31628D2159CB1300DB0480 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
